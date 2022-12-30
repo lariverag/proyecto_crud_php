@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
-                                    <a href="delete.php?id=<?= $date[0]?>" class="btn btn-danger">Eliminar</a>
+                                    <a href="delete.php?id=<?= $row[0]?>" class="btn btn-danger">Eliminar</a>
                                     <!--<button type="button">Eliminar</button>-->
                                 </div>
                                 </div>
@@ -51,7 +51,7 @@
                 <?php endforeach; ?>
             <?php else: ?>
                 <tr>
-                    <td colspan="3" class="text-center">No hay registros</td>
+                    <td colspan="3" class="text-center">No hay registros Actualmente</td>
                 </tr>
 
             <?php endif; ?>
