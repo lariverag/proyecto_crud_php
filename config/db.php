@@ -2,7 +2,7 @@
     class db{
         private $host = "localhost";
         private $dbname = "prueba";
-        private $user "root";
+        private $user = "root";
         private $password = "";
         public function conexion(){
             try {
@@ -13,6 +13,4 @@
             }
         }
     }
-    $obj = new db();
-    print_r($obj->conexion());
 ?>
